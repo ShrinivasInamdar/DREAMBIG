@@ -1,0 +1,882 @@
+<!-- March 23rd 2024, Chinmay Joshi, Ivan Azim -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Don Bosco College of Engineering" />
+    <meta name="description" content="DBCE Dreambig:,a flagship event by Computer Department of DBCE." />
+    <meta name="keywords" content="dreambig,dbce-dreambig" />
+    <title>Dreambig 2024</title>
+
+    <!-- Behavioral Meta Data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/big dream logo.png" type="image/png">
+
+    <!-- jquery -->
+    <script src="assets/scripts/jquery.js"></script>
+
+    <!-- boostrap -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css" />
+    <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/speaker-profile.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/schedule.css" />
+
+    <!-- custom loader style -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/loader.css" />
+
+    <!-- custom script -->
+    <script src="assets/scripts/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-white mu-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">DBCE DREAMBIG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#intro"> About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#speaker"> Speakers </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#schedule"> Schedule </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#register"> Register </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#glimpses"> Glimpses </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sponsors"> Sponsors </a></li>
+                        <li class="nav-item"><a class="nav-link" href="team.html"> Our Team </a></li>
+                    </ul>
+                </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+    </header>
+
+    <!-- section - hero -->
+    <section id="hero">
+        <div id="vanta-container">
+            <!-- Vanta.js Globe will be rendered here -->
+        </div>
+        <div class="row info">
+            <span class="dbce">Don Bosco College Of Engineering, Fatorda Goa</span>
+            <span class="initiative">An initiative by <strong> Computer Engineering Department </strong></span>
+            <span class="dreambig-text"><img src="./assets/images/big dream logo.png" class="dreambig-icon"></img>DBCE
+                DREAMBIG</span>
+            <img src="./assets/images/big dream logo.png" class="dreambig" style="display: none;">
+            <span class="year">2024</span>
+            <span class="iic">An Industry - Institute Connect</span>
+            <span class="date">15<sup>th</sup> March 2024</span>
+            <a id="action" href="#intro"></a>
+        </div>
+        
+    </section>
+
+    <!-- section - introduction -->
+    <section id="intro" class="container center padded">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h1>DBCE Dreambig</h1>
+                <span class="line"></span>
+                <p class="intro">Join us for the third edition of DBCE Dream Big, an Industry Student
+                    Connect event hosted by the
+                    Computer Engineering Department on <span class="text-acent"><strong>March 15th, 2024</strong></span>
+                    . Our aim is to foster awareness about innovation
+                    in industrial practices and professional expertise among students.
+                    <br>
+                    This immersive event serves as an invaluable experiential learning opportunity, allowing students to
+                    engage directly with industry experts. Through interactive sessions, participants will gain insights
+                    into industry work patterns and the latest technologies, transcending traditional classroom
+                    learning.
+                    <br>
+                    By facilitating direct interaction with seasoned professionals, we aspire to equip young minds with
+                    real-world knowledge and practical insights beyond the confines of textbooks. This unique experience
+                    not only enriches students' learning journey but also nurtures invaluable industry connections right
+                    here at the institute level.
+                    <br>
+                    Don't miss this chance to broaden your horizons and set the stage for your future career success.
+                    Join us at DBCE Dream Big and embark on a journey of discovery and professional growth..
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section - speakers  -->
+    <section id="speaker" class="container padded-bottom center-mobile relative list odd-section speaker-section">
+        <h2>Our Speakers</h2>
+        <span class="line"></span>
+        <div class="row-speakers">
+            <!-- speaker 1 -->
+            <div class="speaker-row-item">
+                <div class="card" data-state="#about">
+                    <div class="card-header">
+                        <!-- speaker photo -->
+                        <div class="card-cover"
+                            style="background-image: url('assets/images/speakers/Sri\ Charan\ Lakkaraju.jfif')">
+                        </div>
+                        <!-- speaker photo -->
+                        <img class="card-avatar" src="assets/images/speakers/Sri Charan Lakkaraju.jfif" alt="avatar" />
+                        <!-- speaker name -->
+                        <h1 class="card-fullname">Sri Charan Lakkaraju</h1>
+                        <h2 class="card-jobtitle">Founder & CEO, Student Tribe, Hyderabad</h2>
+                    </div>
+                    <div class="card-main">
+                        <div class="card-section is-active" id="about">
+                            <div class="card-content">
+                                <div class="card-subtitle">ABOUT</div>
+                                <p class="card-desc">Sri Charan Lakkaraju, the visionary Founder & CEO behind Student
+                                    Tribe, leads a groundbreaking student discovery platform revolutionizing
+                                    opportunities for students from tier 2 and tier 3 colleges.
+                                    <span class="expand">
+                                        With a rich history
+                                        dating back to 2015, Sri Charan initiated this transformative venture as
+                                        stuMagz, a
+                                        pioneering student community facilitating internship discoveries, opportunities,
+                                        and
+                                        student events. His exceptional leadership has earned him recognition as a
+                                        Forbes
+                                        30Under30 Asia 2018 honoree, alongside his esteemed position as a Charter Member
+                                        at
+                                        TiE Hyderabad, a global nexus of entrepreneurs and investors.
+
+                                        Driven by an unwavering passion for empowering students, Sri Charan has impacted
+                                        over 300,000 individuals through comprehensive training encompassing
+                                        Entrepreneurship, soft skills, interview techniques, and recruitment tests.
+                                    </span>
+                                    <span class="toggle-btn" onclick="toggleSpeaker(this)"><br><u>Expand</u></span>
+                                </p>
+                            </div>
+
+                            <div class="card-social">
+                                <!-- facebook -->
+                                <a href="https://www.facebook.com/charanlakkaraj" target="_blank"><svg
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z">
+                                        </path>
+                                    </svg></a>
+                                <!-- twitter -->
+                                <!-- <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z">
+                                        </path>
+                                    </svg></a> -->
+                                <!-- instagram -->
+                                <!-- <a href="https://www.instagram.com/charanlakkaraju" target="_blank">
+                                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0">
+                                        </path>
+                                        <path
+                                            d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0">
+                                        </path>
+                                        <path
+                                            d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0">
+                                        </path>
+                                    </svg></a> -->
+                                <!-- linkedin -->
+                                <a href="https://www.linkedin.com/in/sricharanlakkaraju/" target="_blank"><svg
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- speaker 2 -->
+            <div class="speaker-row-item">
+                <div class="card" data-state="#about">
+                    <div class="card-header">
+                        <!-- speaker photo -->
+                        <div class="card-cover"
+                            style="background-image: url('assets/images/speakers/Vishal\ Desai.jfif')">
+                        </div>
+                        <!-- speaker photo -->
+                        <img class="card-avatar" src="assets/images/speakers/Vishal Desai.jfif" alt="avatar" />
+                        <!-- speaker name -->
+                        <h1 class="card-fullname">Vishal Desai</h1>
+                        <h2 class="card-jobtitle">CEO and Co-Founder, The Grit City, Goa</h2>
+                    </div>
+                    <div class="card-main">
+                        <div class="card-section is-active" id="about">
+                            <div class="card-content">
+                                <div class="card-subtitle">ABOUT</div>
+                                <p class="card-desc">Vishal Desai, a member of The Grit City team, is dedicated to
+                                    shaping the future of higher education with self-directed, experiential, and
+                                    design-led approaches.
+                                    <span class="expand">
+                                        With over 20 years of experience in consumer tech product
+                                        development, his expertise includes design research, user-centered design, lean
+                                        methodologies, and product-led growth. Passionate about using design thinking to
+                                        drive innovation, Vishal offers coaching and conducts workshops on
+                                        entrepreneurship,
+                                        LinkedIn, and product management. As a featured speaker at various organizations
+                                        and
+                                        Higher Education institutions, including Product School and Goa Engineering
+                                        College,
+                                        he inspires audiences to embrace design thinking for impactful solutions. Vishal
+                                        welcomes connections with investors and thought leaders interested in education
+                                        innovation and human-centered design to collaborate on projects that prepare
+                                        young
+                                        talent for success in the 21st Century.
+                                    </span>
+                                    <span class="toggle-btn" onclick="toggleSpeaker(this)"><br><u>Expand</u></span>
+                                </p>
+                            </div>
+
+                            <div class="card-social">
+                                <!-- facebook -->
+                                <!-- <a href="#"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" />
+                                    </svg></a> -->
+                                <!-- twitter -->
+                                <!-- <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" />
+                                    </svg></a> -->
+                                <!-- instagram -->
+                                <!-- <a href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0" />
+                                        <path
+                                            d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0" />
+                                        <path
+                                            d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0" />
+                                    </svg></a> -->
+                                <!-- linkedin -->
+                                <a href="https://www.linkedin.com/in/veedesai/" target="_blank"><svg viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-speakers">
+            <!-- speaker 3 -->
+            <div class="speaker-row-item">
+                <div class="card" data-state="#about">
+                    <div class="card-header">
+                        <!-- speaker photo -->
+                        <div class="card-cover"
+                            style="background-image: url('assets/images/speakers/Srinivas\ Taluka.jfif')">
+                        </div>
+                        <!-- speaker photo -->
+                        <img class="card-avatar" src="assets/images/speakers/Srinivas Taluka.jfif" alt="avatar" />
+                        <!-- speaker name -->
+                        <h1 class="card-fullname">Srinivas Taluka</h1>
+                        <h2 class="card-jobtitle">VP Facilities, T- HUB, Hyderabad</h2>
+                    </div>
+                    <div class="card-main">
+                        <div class="card-section is-active" id="about">
+                            <div class="card-content">
+                                <div class="card-subtitle">ABOUT</div>
+                                <p class="card-desc">Srinivas Taluka, a seasoned management professional with an
+                                    illustrious 25-year career, epitomizes excellence in Facility Management,
+                                    Infrastructure Management, General Administration, Marketing, and Corporate
+                                    Communication.
+                                    <span class="expand">
+                                        With a rich portfolio spanning diverse sectors including IT, Pharma,
+                                        BPO, and manufacturing, Srinivas has honed his expertise in facilities
+                                        management at
+                                        esteemed organizations such as GE Capital, GVKBIO, CSC, and SIGNODE.
+
+                                        Currently serving as a pivotal force at T-Hub, Srinivas plays a vital role in
+                                        nurturing the startup ecosystem, fueling innovation and entrepreneurship. His
+                                        ambition is to elevate T-Hub to the gold standard for innovation worldwide.
+
+                                        Srinivas's remarkable capabilities encompass a broad spectrum of specialties,
+                                        including setting up new facilities, managing multiple facilities, leading large
+                                        teams, and ensuring robust administrative support. He is hailed for his
+                                        proficiency
+                                        in crisis management, vendor contract management, and establishing standards and
+                                        protocols.
+                                    </span>
+                                    <span class="toggle-btn" onclick="toggleSpeaker(this)"><br><u>Expand</u></span>
+                                </p>
+                            </div>
+
+                            <div class="card-social">
+                                <!-- facebook -->
+                                <!-- <a href="#"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" />
+                                    </svg></a> -->
+                                <!-- twitter -->
+                                <!-- <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" />
+                                    </svg></a> -->
+                                <!-- instagram -->
+                                <!-- <a href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0" />
+                                        <path
+                                            d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0" />
+                                        <path
+                                            d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0" />
+                                    </svg></a> -->
+                                <!-- linkedin -->
+                                <a href="https://www.linkedin.com/in/srinivas-taluka-5591586/" target="_blank"><svg
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- speaker 4 -->
+            <div class="speaker-row-item">
+                <div class="card" data-state="#about">
+                    <div class="card-header">
+                        <!-- speaker photo -->
+                        <div class="card-cover"
+                            style="background-image: url('assets/images/speakers/Damodar\ Pai\ Patnekar.jpeg')">
+                        </div>
+                        <!-- speaker photo -->
+                        <img class="card-avatar" src="assets/images/speakers/Damodar Pai Patnekar.jpeg" alt="avatar" />
+                        <!-- speaker name -->
+                        <h1 class="card-fullname">Damodar Pai Patnekar </h1>
+                        <h2 class="card-jobtitle">CEO and Co-Founder, Bodhami</h2>
+                    </div>
+                    <div class="card-main">
+                        <div class="card-section is-active" id="about">
+                            <div class="card-content">
+                                <div class="card-subtitle">ABOUT</div>
+                                <p class="card-desc">
+                                    Damodar Pai Patnekar, a National Startup Award winner recognized by
+                                    the Government of India, is the dynamic Co-founder and CEO of Bodhami, an innovative
+                                    edutech startup.
+                                    <span class="expand">
+                                        With a focus on career guidance and
+                                        skill development through Artificial Intelligence, Damodar has garnered acclaim
+                                        for
+                                        his contributions to youth, women, and rural development, earning the
+                                        prestigious
+                                        Goan Achievers Award from the Government of Goa.
+
+                                        An MBA gold medalist and computer engineering graduate, Damodar's expertise
+                                        extends
+                                        over 22 years in information technology and services. His leadership at Bodhami
+                                        has
+                                        led to multiple accolades, including national awards and recognition at global
+                                        events like the Vivatech Startup Festival in Paris.
+
+                                        Specializing in digital and automation solutions for insurers, Damodar drives
+                                        transformative initiatives and agile transformations for Fortune 500 companies.
+                                        His
+                                        visionary leadership and domain expertise in sales, distribution, and analytics
+                                        continue to propel Bodhami's success.
+                                    </span>
+                                    <span class="toggle-btn" onclick="toggleSpeaker(this)"><br><u>Expand</u></span>
+                                </p>
+                            </div>
+
+                            <div class="card-social">
+                                <!-- facebook -->
+                                <!-- <a href="#"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" />
+                                    </svg></a> -->
+                                <!-- twitter -->
+                                <!-- <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" />
+                                    </svg></a> -->
+                                <!-- instagram -->
+                                <!-- <a href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0" />
+                                        <path
+                                            d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0" />
+                                        <path
+                                            d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0" />
+                                    </svg></a> -->
+                                <!-- linkedin -->
+                                <a href="https://www.linkedin.com/in/damodar-pai-patnekar-1021945/" target="_blank"><svg
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section - schedule/timeline  -->
+    <section id="schedule" class="container center padded relative list">
+        <h2>Schedule</h2>
+        <span class="line"></span>
+        <div class="row">
+            <ul class="timeline">
+                <!-- Item 1 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper" onclick="expand(this)">
+                            <span class="flag">Inaugural</span>
+                            <span class="time-wrapper"><span class="time">9:30 am - 9:58 am</span></span>
+                        </div>
+                        <div class="desc">Introduction to DBCE Dream Big.
+                            <br>10 years College Video.
+                            <br>Department Video
+                            <br>Glimpses of DBCE DreamBig
+                            <br>Welcome Address by Principal.
+                            <br>Address by Director.
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Item 2 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">MOU signing<small>with Stanza Infotech</small></span>
+                            <span class="time-wrapper"><span class="time">9:58 am - 10:10 am</span></span>
+                        </div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+
+                <!-- Item 3 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper" onclick="expand(this)">
+
+                            <span class="flag">Session 1<small>by Sri Charan Lakkaraju</small></span>
+
+                            <span class="time-wrapper"><span class="time">10:10 am - 10:38 am</span></span>
+                        </div>
+                        <div class="desc">Introduction.
+                            <br>Presentation by Sri Charan Lakkaraju.
+                            <br>Interaction with Sri Charan Lakkaraju.
+                            <br>Memento Presentation.
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 4 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+
+                            <span class="flag">MOU signing <small>with Student Tribe</small></span>
+
+                            <span class="time-wrapper"><span class="time">10:38 am - 10:45 am</span></span>
+                        </div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <!-- Item 5 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper" onclick="expand(this)">
+
+                            <span class="flag">Session 2 <small>by Mr. Vishal Desai</small></span>
+
+                            <span class="time-wrapper"><span class="time">10:45 am - 11:11 am</span></span>
+                        </div>
+                        <div class="desc">Introduction.
+                            <br>Presentation by Mr. Vishal Desai.
+                            <br>Interaction with Mr. Vishal Desai.
+                            <br>Memento Presentation.
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 6 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+
+                            <span class="flag">MOU signing <small>with Creative Capsule</small></span>
+
+                            <span class="time-wrapper"><span class="time">11:11 am - 11:20 am</span></span>
+                        </div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <!-- Item 7 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper" onclick="expand(this)">
+
+                            <span class="flag">Session 3 <small>by Mr. Srinivas Taluka</small></span>
+
+                            <span class="time-wrapper"><span class="time">11:20 am - 11:50 am</span></span>
+                        </div>
+                        <div class="desc">Introduction.
+                            <br>Presentation by Mr. Srinivas Taluka.
+                            <br>Interaction with Mr. Srinivas Taluka.
+                            <br>Memento Presentation.
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 8 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper" onclick="expand(this)">
+
+                            <span class="flag">Session 4 <small style="font-size: 12px;">by Mr. Damodar Pai
+                                    Patnekar</small></span>
+
+                            <span class="time-wrapper"><span class="time">11:50 pm - 12:18 pm</span></span>
+                        </div>
+                        <div class="desc">Introduction.
+                            <br>Presentation by Mr. Damodar Pai Patnekar.
+                            <br>Interaction with Mr. Damodar Pai Patnekar.
+                            <br>Memento Presentation.
+                        </div>
+                    </div>
+                </li>
+                <!-- Item 9 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+
+                            <span class="flag">MOU signing <small>with Bodhami Pvt. Ltd.</small></span>
+
+                            <span class="time-wrapper"><span class="time">12:18 pm - 12:25 pm</span></span>
+                        </div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <!-- Item 10 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+
+                            <span class="flag" style="font-size: smaller;">Address by special invitee <small>Mr. Vishal Kumar Soni, VP-Technology, OneShield
+                                India</small></span>
+
+                            <span class="time-wrapper"><span class="time">12:25 pm - 12:35 pm</span></span>
+                        </div>
+                        <div class="desc"></div>
+                    </div>
+                </li>
+                <!-- Item 11 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper" onclick="expand(this)">
+                            <span class="flag">Closing ceremony</span>
+                            <span class="time-wrapper"><span class="time">12:35 pm onwards</span></span>
+                        </div>
+                        <div class="desc">Vote of thanks
+                            <br>Momento to all Sponsors
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- section - register  -->
+    <section id="register" class="container  padded center relative list odd-section">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <!-- <h3>Register Now! </h3> -->
+                <!-- <span class="line"></span> -->
+                <div class="reg-btn">
+                    <a class="cta"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSe7tZrHs2Cj_23rAvJlMALql24_j_O1n72_bocYHCS8LDRWIg/viewform"
+                        target="_blank">
+                        <span>Register Now!</span>
+                        <span>
+                            <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path class="one"
+                                        d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                        fill="#FFFFFF"></path>
+                                    <path class="two"
+                                        d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                        fill="#FFFFFF"></path>
+                                    <path class="three"
+                                        d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                        fill="#FFFFFF"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 - glimpses  -->
+    <section id="glimpses" class=" center padded relative list">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h2>Glimpses</h2>
+                <span class="line"></span>
+            </div>
+        </div>
+        <!--  Carousel 1 -->
+        <div class="slider">
+            <div class="slide-track2">
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses2.JPG" loading="lazy"></div>
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses1.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses3.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses4.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses5.JPG" loading="lazy"></div>
+
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses1.JPG" loading="lazy"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses2.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses3.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses4.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses5.JPG" loading="lazy"></div>
+
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses1.JPG" loading="lazy"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses2.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses3.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses4.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses5.JPG" loading="lazy"></div>
+            </div>
+        </div>
+
+        <!--  Carousel 2 -->
+        <div class="slider">
+            <div class="slide-track2 slider-odd">
+
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses6.JPG" loading="lazy"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses7.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses8.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses9.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses10.JPG" loading="lazy"></div>
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses6.JPG" loading="lazy"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses7.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses8.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses9.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses10.JPG" loading="lazy"></div>
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses6.JPG" loading="lazy"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses7.JPG" loading="lazy"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses8.JPG" loading="lazy"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses9.JPG" loading="lazy"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses10.JPG" loading="lazy"></div>
+
+                
+            </div>
+        </div>
+
+        <!--  Carousel 3 -->
+        <div class="slider">
+            <div class="slide-track2 slider-odd-2">
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses11.JPG"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses12.JPG"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses13.JPG"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses14.JPG"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses15.JPG"></div>
+                
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses11.JPG"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses12.JPG"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses13.JPG"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses14.JPG"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses15.JPG"></div>
+                
+                <div class="slide bg-red-500"><img src="assets/images/glimpses/glimpses11.JPG"></div>
+                <div class="slide bg-purple-500"><img src="assets/images/glimpses/glimpses12.JPG"></div>
+                <div class="slide bg-blue-500"><img src="assets/images/glimpses/glimpses13.JPG"></div>
+                <div class="slide bg-green-500"><img src="assets/images/glimpses/glimpses14.JPG"></div>
+                <div class="slide bg-pink-500"><img src="assets/images/glimpses/glimpses15.JPG"></div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- section 5 - sponsors  -->
+    <section id="sponsors" class="container padded center relative list">
+        <h3>Powered By</h3>
+        <span class="line"></span>
+        <div class="sponsor-logo-row row">
+            <div class="col-md-6 sponsor-img">
+                <img class="sponsor-logo" src="assets/images/sponsors/Oneshield.png" alt="OneShield">
+            </div>
+            <div class="col-md-6 sponsor-img">
+                <img class="sponsor-logo" src="assets/images/sponsors/TERSUS logo.png" alt="TERSUS">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Co - powered By </h3>
+                <span class="line"></span>
+                <div class="sponsor-logo-row row">
+                    <div class="col sponsor-img">
+                        <img class="sponsor-logo" src="assets/images/sponsors/Xerviz-wlobal-logo.png" alt="OneShield">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3>Supported By </h3>
+                <span class="line"></span>
+                <div class="sponsor-logo-row row">
+                    <div class="col sponsor-img">
+                        <img class="sponsor-logo" src="assets/images/sponsors/conex.png" alt="OneShield">
+                    </div>
+                    <div class="col sponsor-img">
+                        <img class="sponsor-logo" src="assets/images/sponsors/Bodhami Logo.png" alt="OneShield">
+                    </div>
+                    <div class="col sponsor-img">
+                        <img class="sponsor-logo" src="assets/images/sponsors/SK -Group.jpg" alt="OneShield">
+                    </div>
+                    <div class="col sponsor-img">
+                        <img class="sponsor-logo" src="assets/images/sponsors/Creative Capsule.jpg" alt="OneShield">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 6 - instagram -->
+    <section class="container center padded relative list">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h2>Follow us on Instagram</h2>
+                <span class="line"></span>
+                <div class="wrap">
+                    <button class="follow-button" onclick="window.open('https://www.instagram.com/inspirusdbce/', '_blank')">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50"
+style="fill:#FFFFFF;">
+<path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+</svg>&nbsp;Follow</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 7 - patrons -->
+    <section id="intro" class="container center padded odd-section">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h2>Core Committee</h2>
+                <span class="line"></span>
+                <div class="patrons row">
+                    <div class="col-md-3">
+                        <img class="patron-avatar" src="assets/images/patrons/prof.janhavi.png"
+                            alt="Prof. Janhavi Naik">
+                        <h3>Prof. Janhavi Naik</h3>
+                        <h4>Faculty Coordinator, Department of Computer Engineering</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="patron-avatar" src="assets/images/patrons/dr.gaurang.png" alt="Dr. Gaurang Patkar">
+                        <h3>Dr. Gaurang Patkar</h3>
+                        <h4>Convener, HOD - Department of Computer Engineering</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="patron-avatar" src="assets/images/patrons/dr.neena.jpeg"
+                            alt="Dr. Neena S. P. Panandikar">
+                        <h3>Dr. Neena S. P. Panandikar</h3>
+                        <h4>Principal, DBCE</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="patron-avatar" src="assets/images/patrons/fr.kinley.jpeg" alt="Fr. Kinley D' Cruz">
+                        <h3>Fr. Kinley D' Cruz</h3>
+                        <h4>Director, DBCE</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 8 - map -->
+    <section class="container center padded relative list">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h2>Getting here</h2>
+                <span class="line"></span><br><br>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15394.22519423461!2d73.9690846!3d15.291974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb1631736de9d%3A0x980720b4516a7a5!2sDon%20Bosco%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1683527701515!5m2!1sen!2sin"
+                    width="100%" frameborder="0" style="border:0;" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="center footer">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <span class="line no-accent"></span>
+                <p class="copyright">© 2024 DBCE Dreambig. All rights reserved.<br>Department of Computer Engineering.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pageloader -->
+    <div id="pageloader">
+        <!-- Content -->
+        <div class="pageloader-content">
+            <h4 style="font-size:90%">Loading...</h4>
+            <span class="progress"></span>
+        </div>
+        <!-- END Content -->
+    </div>
+    <!-- END Pageloader -->
+
+    <!-- Javascript -->
+    <script src="assets/scripts/loader.js"></script>
+    <!-- animated background -->
+    <script src="assets/scripts/three.r134.min.js"></script>
+    <script src="assets/scripts/vanta.globe.min.js"></script>
+    <script>
+        // hreo section animated globe
+        VANTA.GLOBE({
+            el: "#vanta-container",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            // color: 0x960031  ,
+            // backgroundColor: 0x121313  
+            // backgroundAlpha: 0.3
+            
+        })
+        // expand schedule
+        function expand(element) {
+            // Find the desc element within the parent of the clicked flag-wrapper
+            var desc = element.parentNode.querySelector('.desc');
+
+            // Toggle the 'show' class to show or hide the description with smooth transition
+            desc.classList.toggle('show');
+        }
+
+        function toggleSpeaker(element) {
+            var expandContent = element.previousElementSibling;
+            if (expandContent.style.display === "block") {
+                expandContent.style.display = "none";
+                element.innerHTML = "<br><u>Expand</u>";
+            } else {
+                expandContent.style.display = "block";
+                element.innerHTML = "<br><u>Collapse</u>";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
