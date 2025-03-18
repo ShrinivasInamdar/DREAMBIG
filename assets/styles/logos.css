@@ -1,0 +1,14 @@
+.logo-container {
+    display: flex;
+    justify-content: center;  /* Centers the logos */
+    align-items: center;
+    gap: 20px;  /* Adjust space between logos */
+    padding: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.logo-container img {
+    height: 80px; /* Adjust the height as needed */
+    width: auto;  /* Maintain aspect ratio */
+}
+
