@@ -260,6 +260,9 @@ header{
     font-family: "Rouge Script", cursive;
     font-weight: 400;
     font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
 }
 
 #hero .info .dreambig{
@@ -335,10 +338,12 @@ header{
     font-size: 30px;
     font-weight: bold;
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 #hero .info .iic{
     font-size: 30px;
+    margin-top: 30px;
 }
 
 #hero .info .date{
