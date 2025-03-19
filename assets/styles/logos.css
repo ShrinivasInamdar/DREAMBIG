@@ -1,17 +1,28 @@
-.logo-container {
-    display: flex;
-    justify-content: center;  /* Centers the logos */
-    align-items: center;
-    gap: 120px;  /* Adjust space between logos */
-    padding: 20px;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+@media (max-width: 1440px) {
+    .logo-container {
+        display: flex;
+        justify-content: center;  /* Centers the logos */
+        align-items: center;
+        gap: 100px;  /* Adjust space between logos */
+        padding: 20px;
+        flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    }
+    #img{
+        height: 70px;
+    }
 }
+
+
 @media (max-width: 768px) {
     .logo-container{
-        display: inline-block;
+        display: flex;
         justify-content: center;
         align-items: center;
         gap: 50px;
+    }
+    #img
+    {
+        height: 50px;
     }
 }
 
