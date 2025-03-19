@@ -2,9 +2,17 @@
     display: flex;
     justify-content: center;  /* Centers the logos */
     align-items: center;
-    gap: 20px;  /* Adjust space between logos */
+    gap: 100px;  /* Adjust space between logos */
     padding: 20px;
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+@media (max-width: 768px) {
+    .logo-container{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 }
 
 .logo-container img {
