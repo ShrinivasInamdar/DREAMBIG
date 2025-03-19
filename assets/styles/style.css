@@ -504,13 +504,10 @@ section {
         font-size: 25px;
         font-weight: bold;
     }
-    
-    #hero .info .dreambig{
-        display: block !important;
-    }
 
     #hero .info .dreambig-text{
-        display: none !important;
+        display: flex;
+        justify-content: center;
     }
 
     #hero .info .iic{
