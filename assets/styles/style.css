@@ -539,6 +539,7 @@ section {
     #hero .info .iic {
         font-size: 25px;
         font-weight: bold;
+        display: block;
     }
 }
 
