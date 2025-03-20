@@ -4,7 +4,7 @@
     /* align-items: center; */
     width: 100%;
     /* padding: 20px 30px; */
-    background-color: #1a0836; /* Matching the exact dark purple from your image */
+    background-color:whitesmoke; /* Matching the exact dark purple from your image */
     position: relative;
     z-index: 1;
     gap:0px; /* Adjust gap size as needed */
