@@ -188,12 +188,13 @@ p {
     line-height: 64px;
 }
 
+/* Remove unnecessary styles that hide the navbar */
 header {
-    top: 0px;
-    height: 0px !important;
+    top: 0;
+    width: 100%;
 }
 
-/* Hero */
+/* Hero Section */
 #hero {
     background: var(--dark-grey);
     text-align: center;
@@ -205,21 +206,20 @@ header {
     justify-content: center;
 }
 
+/* Make the navbar fixed at the top */
 .fixed-top {
-    /* top: -40px; */
-    /* transform: translateY(40px); */
     transition: transform .3s;
 }
 
+/* Remove the hidden navbar issue */
 .mu-navbar {
-    top: -150px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     transition: all 0.5s;
 }
 
-.show-nav {
-    top: 0px;
-}
-
+/* Navbar Brand */
 .navbar-brand {
     color: var(--red);
     font-family: 'Abril Fatface', cursive;
@@ -229,19 +229,22 @@ header {
     color: var(--red);
 }
 
+/* Navbar Toggler */
 .navbar-toggler {
     background: var(--carmine);
 }
 
+/* Navbar Links */
 .nav-link {
     color: var(--dark-grey);
-    font-family: "Montserrat", arial, sans-serif;
+    font-family: "Montserrat", Arial, sans-serif;
 }
 
 .nav-link:hover {
     color: var(--floral-white);
     background-color: var(--carmine);
 }
+
 
 #hero span {
     align-items: center;
@@ -262,7 +265,7 @@ header {
     font-weight: 400;
     font-size: 30px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
@@ -512,7 +515,7 @@ section {
     }
 
     #hero .dbce {
-        font-size: 25px;
+        font-size: 16px;
     }
 
     #hero .info .initiative {
@@ -523,6 +526,7 @@ section {
     #hero .info .dreambig-text {
         display: flex;
         justify-content: center;
+        font-size: 74px;
     }
 
     #hero .info .iic {
