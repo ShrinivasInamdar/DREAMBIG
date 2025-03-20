@@ -17,6 +17,12 @@
 html {
     overflow-x: hidden;
 }
+@media (max-width: 768px) {
+    .iic {
+        display: none; /* Or visibility: hidden; */
+    }
+}
+
 
 body {
     background: var(--rich-black);
