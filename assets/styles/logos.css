@@ -1,20 +1,20 @@
 .logo-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
     /* padding: 20px 30px; */
     background-color: #1a0836; /* Matching the exact dark purple from your image */
     position: relative;
     z-index: 1;
-    gap:3px; /* Adjust gap size as needed */
+    gap:0px; /* Adjust gap size as needed */
 }
 
 /* Remove any complex patterns and keep it simple like your original design */
 .logo {
-    flex: 1;
+    flex: 2;
     text-align: center;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     max-width: 16%; /* Control maximum width to prevent overly large logos */
 }
 
