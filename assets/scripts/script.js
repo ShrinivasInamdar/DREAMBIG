@@ -13,6 +13,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const navbar = document.getElementById("navbar_top");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) { // Adjust this value as needed
+            navbar.classList.add("show");
+        } else {
+            navbar.classList.remove("show");
+        }
+    });
+});
 // document.addEventListener("DOMContentLoaded", function(){
 //   window.addEventListener('scroll', function() {
 //       if (window.scrollY > 50) {

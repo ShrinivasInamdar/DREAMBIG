@@ -18,7 +18,35 @@ html {
     overflow-x: hidden;
 }
 
+.navbar {
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    opacity: 0;
+}
 
+.navbar.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+.sponsor-logo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjusts space between logos */
+}
+
+.sponsor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adds space around logos */
+}
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px; /* Adjust height as needed */
+}
 
 body {
     background: var(--rich-black);
