@@ -2,10 +2,11 @@
 
 /* =Common Styles
 -------------------------------------------------------------- */
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 :root {
     --red: #C10206;
     --carmine: #A50113;
@@ -31,24 +32,28 @@ html {
     transform: translateY(0);
     opacity: 1;
 }
+
 .sponsor-logo-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Adjusts space between logos */
+    gap: 20px;
+    /* Adjusts space between logos */
 }
 
 .sponsor-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px; /* Adds space around logos */
+    padding: 10px;
+    /* Adds space around logos */
 }
 
 .sponsor-logo {
     max-width: 100%;
     height: auto;
-    max-height: 80px; /* Adjust height as needed */
+    max-height: 80px;
+    /* Adjust height as needed */
 }
 
 body {
@@ -510,6 +515,7 @@ section {
     padding: 50px;
 }
 
+
 /* Media query for devices with a maximum width of 768 pixels */
 @media only screen and (max-width: 768px) {
 
@@ -517,6 +523,8 @@ section {
 
         transform: rotateX(180deg) rotateY(180deg);
     }
+
+    
 
     #hero .info .year {
 
@@ -549,7 +557,7 @@ section {
     }
 
     #hero .dbce {
-        font-size: 16px;
+        font-size: 26px;
     }
 
     #hero .info .initiative {
