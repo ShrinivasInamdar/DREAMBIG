@@ -23,9 +23,9 @@ html {
 }
 
 .navbar {
-    transform: translateY(-100%);
+    transform: translateY(0);
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    opacity: 0;
+    opacity: 1;
 }
 
 .navbar.show {
@@ -249,18 +249,26 @@ header {
     transition: transform .3s;
 }
 
-/* Remove the hidden navbar issue */
+/* Navbar Brand */
+.navbar-brand {
+    color: var(--red);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+}
+
 .mu-navbar {
     position: fixed;
     top: 0;
     width: 100%;
     transition: all 0.5s;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-/* Navbar Brand */
-.navbar-brand {
-    color: var(--red);
-    font-family: 'Abril Fatface', cursive;
+.nav-link {
+    color: var(--dark-grey);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.05rem;
 }
 
 .navbar-brand:hover {
@@ -270,12 +278,6 @@ header {
 /* Navbar Toggler */
 .navbar-toggler {
     background: var(--carmine);
-}
-
-/* Navbar Links */
-.nav-link {
-    color: var(--dark-grey);
-    font-family: "Montserrat", Arial, sans-serif;
 }
 
 .nav-link:hover {
@@ -301,10 +303,22 @@ header {
 #hero .info .initiative {
     font-family: "Rouge Script", cursive;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 42px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
 
+#hero .info .startup {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: 0.05em;
+    background: -webkit-linear-gradient(#e6c717, #e07f24);
+    background: linear-gradient(to right, #e6c717, #e07f24);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 
