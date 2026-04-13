@@ -103,7 +103,7 @@
     margin: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-5px);
-    color: #636b6f;
+    color: #ffffff;
 }
 
 .card-main {
@@ -127,8 +127,8 @@
 
 .card-desc {
     line-height: 1.6;
-    color: #636b6f;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 17px;
     margin: 0;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
