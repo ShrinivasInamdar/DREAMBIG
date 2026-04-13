@@ -135,6 +135,10 @@
     min-height: 315px;
     text-align: justify;
     text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
+    word-spacing: -0.5px;
 }
 
 .toggle-btn {
@@ -229,5 +233,6 @@
 
     .card-desc {
         min-height: 100px;
+        text-align: left;
     }
 }

@@ -565,13 +565,17 @@ section {
         margin: auto;
         justify-content: center;
         text-align: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     .sponsor-logo {
         object-position: center;
         text-align: center;
-        max-height: 60px;
+        max-height: 180px !important;
+    }
+
+    .luarc-logo {
+        height: 30px !important;
     }
 
     .sponsor-img {
