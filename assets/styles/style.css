@@ -763,13 +763,27 @@ section {
 }
 
 .cta span:nth-child(2) {
+    display: inline-block;
+    width: 60px;
+    /* Force the width of the SVG */
+    height: 35px;
+    /* Force the height of the SVG */
+    margin-left: 15px;
+    /* Space after text */
+    vertical-align: middle;
+    /* This is the secret for alignment */
+    transform: skewX(15deg);
+    position: relative;
+    top: -2px;
+    /* Fine-tune this value (e.g., -1px to -5px) to move it up/down */
     transition: 0.5s;
-    margin-right: 0px;
 }
 
-.cta:hover span:nth-child(2) {
-    transition: 0.5s;
-    margin-right: 45px;
+/* Ensure the SVG doesn't have internal scaling issues */
+.cta span:nth-child(2) svg {
+    width: 60px;
+    height: 35px;
+    display: block;
 }
 
 .cta span {

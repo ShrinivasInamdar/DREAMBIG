@@ -12,7 +12,7 @@
     /* margin: 32px; */
 }
 
-.speaker-row-item{
+.speaker-row-item {
     flex-basis: 50%;
 }
 
@@ -133,9 +133,11 @@
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
     min-height: 315px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.toggle-btn{
+.toggle-btn {
     display: none;
 }
 
@@ -206,21 +208,26 @@
         flex-direction: column;
         margin: auto;
     }
+
     .card-fullname {
-       
+
         font-size: smaller;
-        
+
     }
-    .card-jobtitle{
+
+    .card-jobtitle {
         font-size: x-small;
     }
-    .toggle-btn{
+
+    .toggle-btn {
         display: block;
     }
-    .expand{
+
+    .expand {
         display: none;
     }
-    .card-desc{
+
+    .card-desc {
         min-height: 100px;
     }
 }
