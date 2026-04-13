@@ -76,7 +76,7 @@
     text-align: left;
 }
 
-.flag:hover{
+.flag:hover {
     cursor: pointer;
 }
 
@@ -84,16 +84,19 @@
     display: block;
     font-weight: normal;
 }
+
 .direction-l .flag {
     -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    margin-left: 10px;
 }
 
 .direction-r .flag {
     -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+    margin-right: 10px;
 }
 
 .direction-l .flag:before,
@@ -163,11 +166,15 @@
 
 .time {
     display: inline-block;
-    padding: 4px 6px;
+    padding: 4px 10px;
+    /* Increased horizontal padding slightly for better look */
     background: rgb(248, 248, 248);
+    border-radius: 5px;
+    /* This creates the rounded "pill" shape */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.desc{
+.desc {
     margin: 1em 0.75em 0 0;
     display: none;
     font-size: 0.9em;
@@ -178,6 +185,7 @@
     opacity: 0;
     /* Initially set opacity to 0 */
 }
+
 /* .desc:focus{
     transition: all 0.5s ease-in-out;
 }  */
@@ -270,7 +278,7 @@
         float: none;
     }
 
-    
+
 
     .direction-l .desc,
     .direction-r .desc {
